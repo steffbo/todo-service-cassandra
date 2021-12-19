@@ -1,0 +1,5 @@
+spring.data.cassandra:
+  keyspace-name: todo_service
+  local-datacenter: datacenter1
+  contact-points: 127.0.0.1
+  port: 9042
