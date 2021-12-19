@@ -1,0 +1,21 @@
+### create
+POST localhost:8080
+Content-Type: application/json
+
+{
+  "text": "sleep"
+}
+
+### update
+PUT localhost:8080/e5d9e880-6056-11ec-88ce-6f2e5784392d
+Content-Type: application/json
+
+{
+  "done": true
+}
+
+### list
+GET localhost:8080
+
+### delete
+DELETE localhost:8080/e5d9e880-6056-11ec-88ce-6f2e5784392d
